@@ -1,0 +1,15 @@
+{
+  "name": "fxa-lock-account",
+  "version": "0.0.0",
+  "description": "Lock a Firefox Account",
+  "main": "lock_account.js",
+  "scripts": {
+    "start": "node lock_account.js"
+  },
+  "author": "Shane Tomlinson <stomlinson@mozilla.com",
+  "license": "MPL 2.0",
+  "dependencies": {
+    "commodore": "0.0.1",
+    "fxa-js-client": "~0.1.27"
+  }
+}
