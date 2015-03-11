@@ -10,7 +10,7 @@ var FxaClient = require('fxa-js-client');
 
 program
   .version('0.0.1')
-  .option('-a, --auth <auth_server>', 'auth server to use. default: https://stomlinson.dev.lcip.org/auth/v1')
+  .option('-a, --auth <auth_server>', 'auth server to use. Defaults to https://stomlinson.dev.lcip.org/auth/v1', 'https://stomlinson.dev.lcip.org/auth/v1')
   .option('-e, --email <email>', 'email of account to lock')
   .demand('e')
   .option('-p, --pw <password>', 'password of account to lock')
@@ -20,7 +20,7 @@ program
 
 var email = program.email;
 var password = program.pw;
-var authServer = program.auth || 'https://stomlinson.dev.lcip.org/auth/v1';
+var authServer = program.auth;
 
 console.log('(%s) locking %s with %s', authServer, email, password);
 
