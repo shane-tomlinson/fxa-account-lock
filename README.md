@@ -10,7 +10,7 @@ Lock a Firefox Account from the command line.
 ## Usage
 
 ```bash
-> node lock_account.js -e <email> -p <password for email>`
+> node lock_account.js -e <email> -p <password for email>
 ```
 
 ## Advanced usage
