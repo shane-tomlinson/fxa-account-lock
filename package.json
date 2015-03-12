@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node lock_account.js"
   },
-  "author": "Shane Tomlinson <stomlinson@mozilla.com",
+  "author": "Shane Tomlinson <stomlinson@mozilla.com>",
   "license": "MPL 2.0",
   "dependencies": {
     "commodore": "0.0.1",
